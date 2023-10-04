@@ -13,3 +13,14 @@
 
 #03_uzdevums 
 
+
+
+#04_uzdevums
+
+# masa = int(input("ievadi masu kg ="))
+# c = 300000000
+# E = (masa * pow(c,2))
+# print (E, "džouli")
+
+
+#05_uzdevums 
