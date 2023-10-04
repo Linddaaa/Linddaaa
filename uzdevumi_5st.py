@@ -18,8 +18,3 @@
 
 #uzdevums_01
 
-teksts = input("ievadi tekstu")
-if ":)":
-    print(teksts.replace(":)", "🙂"))
-else:
-    print(teksts.replace(":(", "🙁"))
