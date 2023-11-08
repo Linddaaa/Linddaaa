@@ -1,11 +1,6 @@
 import csv
  
-# opening the CSV file
-with open('Giants.csv', mode ='r') as file:    
-        
-       # reading the CSV file
-       csvFile = csv.DictReader(file)
- 
-       # displaying the contents of the CSV file
-       for lines in csvFile:
-            print(lines)
+with open('liepaja_atskaite.cv', mode ='r') as file:
+    csvFile = csv.DictReader(file)
+    for lines in csvFile:
+        print(lines)
