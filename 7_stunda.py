@@ -24,11 +24,27 @@
 
 # line_count()
 
-def burti_a(fails):
-    with open(fails, 'r') as f:
-        saturs = f.read()
-        skaits = saturs.count('a')
-    return skaits 
-fails = "teksts.txt"
-skaits = burti_a(fails)
-print(f"Failā '{fails}' ir {skaits} burti 'a'.")
+# def burti_a(fails):
+#     f = open(fails, 'r') 
+#     saturs = f.read()
+#     skaits = saturs.count('a')
+#     return skaits 
+
+# fails = "teksts.txt"
+# skaits = burti_a(fails)
+# print(f"Failā '{fails}' ir {skaits} burti 'a'.") 
+
+#izveidot programmu, kas ģenerē 100 skaitļus no 0 līdz 100
+
+# import random
+# f = open("saraksts.txt", "w")
+# for i in range(100):
+#     number = random.randint(0, 1000)
+#     # print(number)
+#     f.write(f"{number}\n")
+
+
+# with open("dati.cvs") as file:
+#     for line in file:
+#         row = line.rstrip().split(";")
+#         print(f"{row[0]} is in {row[1]}")
