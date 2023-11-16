@@ -10,7 +10,20 @@
 # file.close()    #aizver csv failu         
 
 
-import pandas
+# import pandas
 
-csvFiles = pandas.read_csv('fails.csv')
-print(csvFiles)
+# csvFiles = pandas.read_csv('fails.csv')
+# print(csvFiles)
+
+
+# import json
+# with open('example_2.json', 'r') as f:
+#     data = json.load(f)
+#     for i in data['quiz']:
+#         print(i)
+# f.close()
+
+import json
+arhivs = open(dati.json", "w")
+json.dump(dati,arhivs, indent=4)
+arhivs.close()
