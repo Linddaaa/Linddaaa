@@ -25,24 +25,24 @@ turtle.done()
 
 
 
-import turtle
-import random
-#pārdēvēju turtle sev izvēlētā vārdā - b
-b = turtle.Turtle()
-#izveidoju definētu funkciju
-def circle(x,y):
-    #krāsas no kurām izvēlēties katru reizi veidojot jaunu apli
-    a = ["blue", "red", "green", "cyan", "pink", "purple", "yellow"]
-    #rādiuss ir 10
-    r = 10
-    b.penup()
-    b.goto(x,y)
-    b.pendown()
-    b.fillcolor(random.choice(a))
-    b.begin_fill()
-    b.circle(r) 
-    b.end_fill()
-#funkcijas, lai aplis parādītos uz ekrāna ar kreiso klikšķi
-turtle.onscreenclick(circle, 1)
-turtle.listen
-turtle.done()
+# import turtle
+# import random
+# #pārdēvēju turtle sev izvēlētā vārdā - b
+# b = turtle.Turtle()
+# #izveidoju definētu funkciju
+# def circle(x,y):
+#     #krāsas no kurām izvēlēties katru reizi veidojot jaunu apli
+#     a = ["blue", "red", "green", "cyan", "pink", "purple", "yellow"]
+#     #rādiuss ir 10
+#     r = 10
+#     b.penup()
+#     b.goto(x,y)
+#     b.pendown()
+#     b.fillcolor(random.choice(a))
+#     b.begin_fill()
+#     b.circle(r) 
+#     b.end_fill()
+# #funkcijas, lai aplis parādītos uz ekrāna ar kreiso klikšķi
+# turtle.onscreenclick(circle, 1)
+# turtle.listen
+# turtle.done()
